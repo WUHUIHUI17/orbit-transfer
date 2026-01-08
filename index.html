@@ -243,7 +243,7 @@
     };
 
     const earthImg = new Image();
-    earthImg.src = "earth.jpg"; 
+    earthImg.src = "https://cdn.jsdelivr.net/gh/wuhuihui17/orbit-transfer@main/earth.jpg"; 
     earthImg.onload = () => { if(!running) loop(); };
     earthImg.onerror = () => { console.warn("未找到图片"); if(!running) loop(); };
 
@@ -666,4 +666,5 @@
 </script>
 </body>
 </html>
+
 
